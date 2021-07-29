@@ -13,6 +13,7 @@ body {
 	font-family: 'Exo', sans-serif;
 	color: #333;
 	background-color: #fafafa;
+	scroll-padding: 53px;
 }
 
 .container {
@@ -27,6 +28,9 @@ hr {
 }
 
 header {
+	position: sticky;
+	top: 0;
+	left: 0;
 	background-color: #fff;
 }
 header .container {
