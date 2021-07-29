@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
+
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-size: 16px;
+	font-family: 'Exo', sans-serif;
+	color: #333;
+	background-color: #fafafa;
+}
+
+.container {
+	margin: auto;
+	padding: 0.8rem;
+	max-width: 1360px;
+}
+
+header {
+	background-color: #fff;
+}
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+nav a {
+	margin-left: 0.8em;
+	text-decoration: none;
+	color: #333;
+}
+
+#hero {
+	background-color: #fff;
+}
+#hero .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.8rem;
+	height: calc(100vh - 53px);
+}
+#hero h1 {
+	font-size: 2.8em;
+}
