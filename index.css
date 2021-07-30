@@ -14,6 +14,7 @@ body {
 	color: #333;
 	background-color: #fafafa;
 	scroll-padding: 53px;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -33,12 +34,14 @@ header {
 	left: 0;
 	background-color: #fff;
 }
+
 header .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem;
 }
+
 nav a {
 	margin-left: 0.8em;
 	text-decoration: none;
@@ -52,13 +55,16 @@ section {
 #hero {
 	background-color: #fff;
 }
+
 #hero .container {
 	display: flex;
 	justify-content: space-between;
+    flex-wrap: wrap;
 	align-items: center;
 	padding: 1.8rem;
 	height: calc(100vh - 53px);
 }
+
 #hero h1 {
 	font-size: 2.8em;
 }
@@ -67,20 +73,76 @@ section {
 	background-color: #6c63ff;
 	color: #fff;
 }
+
 #about p {
 	margin: 0.4rem 0;
 	color: #f5f5f5;
 }
 
 #project-grid {
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	grid-gap: 0.8rem;
-	padding: 1rem 0;
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+	padding: 3rem 0;
 }
+
 .card {
 	border: 1px solid #aaa;
 	border-radius: 0.4em;
 	padding: 0.8rem;
 	max-width: 21rem;
+    margin-bottom: 2rem;
 }
+
+.card img {
+	height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card .description {
+	margin-top: 1rem;
+}
+
+footer {
+    background-color: #333;
+    padding: 2rem;
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-me, .quick-links, .contact-me{
+    color: white;
+    max-width: 300px;
+    margin-bottom: 2rem;
+}
+
+.heading {
+    margin-bottom: 0.8rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.nav-links a{
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.contact-links img {
+    height: 26px;
+    width: 26px;
+    margin-right: 0.6rem;
+}
+
+
+
