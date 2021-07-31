@@ -1,6 +1,6 @@
 # Make your own portfolio using HTML and CSS
 
-Sample website: [https://sdc-svit.github.io/html-css-workshop/#hero](https://sdc-svit.github.io/html-css-workshop/#hero)
+[Sample website](https://sdc-svit.github.io/html-css-workshop)
 ### Bush up your HTML and CSS knowledge by making your own portfolio
 
 ## What will be covered in the workshop?
