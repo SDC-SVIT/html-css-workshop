@@ -14,5 +14,6 @@
 
 ### Don't worry all of these concepts will be explained in detail while making the portfolio website
 
-[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+### Resources
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
 [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
