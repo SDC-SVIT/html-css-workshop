@@ -17,3 +17,7 @@
 ### Resources
 [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
 [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+[The Odin Project](https://css-tricks.com/snippets/css/complete-guide-grid/)
+[Microsoft Web Dev Course](https://microsoft.github.io/Web-Dev-For-Beginners)
+[Just in case you feel like a god](https://github.com/mrmartineau/awesome-web-dev-resources)
+
